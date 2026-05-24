@@ -37,3 +37,4 @@ df.index.name = "date"
 df.to_csv("data/healthcare_indicators.csv")
 print("Done! Saved to data/healthcare_indicators.csv", flush=True)
 print(df.tail(), flush=True)
+import pandas as pd
